@@ -29,14 +29,14 @@ int _strlen(const char *s)
 
 	for (len = 0; s[len] != 0; len++)
 	{
-									}
-				return (len);
+	}
+	return (len);
 }
 
 /**
  * cmp_chars - compare chars of strings
  * @str: input string.
- * delim: delimiter.
+ * @delim: delimiter.
  * Return: 1 if are equals, 0 if not.
  */
 int cmp_chars(char str[], const char *delim)
